@@ -1167,9 +1167,8 @@ def generer_docx_business_model(nom_entreprise, date_bmc, contenu_business_model
 # ----------------------------------------------------------------------------
 # 5) Application Streamlit avec Onglets
 # ----------------------------------------------------------------------------
-
+st.set_page_config(page_title="Générateur de Business Model Canvas", layout="wide")
 def main():
-    st.set_page_config(page_title="Générateur de Business Model Canvas", layout="wide")
     st.title("Générateur de Business Model Canvas")
     st.write(
         "Cette application génère automatiquement un Business Model Canvas (format Word) "
