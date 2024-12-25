@@ -2,6 +2,8 @@ streamlit==1.25.0
 pandas==1.5.3
 msrest==0.7.1
 openai==0.28.0
-xlsxwriter==3.1.4
-markdown-pdf==0.1.6
 python-docx==0.8.11
+beautifulsoup4==4.12.2
+lxml==4.9.3
+requests==2.31.0
+python-dotenv==1.0.0
